@@ -1,6 +1,11 @@
 
 # Proyecto M09 - Unity Transport
 
+- Para probar necesitas descargar unitypackage/zip y el video /.mp4:
+```
+https://drive.google.com/uc?export=download&id=ID_DEL_VIDEO](https://drive.google.com/drive/folders/19f3wlbEfKcMpxgQUG8buQsDn7yBHD-tI?usp=sharing
+```
+
 ## Descripcion
 
 - Chat por protocolo **UDP**  
