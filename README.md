@@ -3,7 +3,7 @@
 
 - Para probar necesitas descargar unitypackage/zip y el video /.mp4:
 ```
-https://drive.google.com/uc?export=download&id=ID_DEL_VIDEO](https://drive.google.com/drive/folders/19f3wlbEfKcMpxgQUG8buQsDn7yBHD-tI?usp=sharing
+https://drive.google.com/drive/folders/19f3wlbEfKcMpxgQUG8buQsDn7yBHD-tI?usp=sharing
 ```
 
 ## Descripcion
@@ -75,7 +75,7 @@ http://localhost:3003/PROYECTO_V3.mp4
 ** El vídeo tienes que descargar porque es demasiado grande, el link esta abajo, se llama PROYECTO_V3.mp4:**  
 
 ```
-[https://drive.google.com/uc?export=download&id=ID_DEL_VIDEO](https://drive.google.com/drive/folders/19f3wlbEfKcMpxgQUG8buQsDn7yBHD-tI?usp=sharing)
+https://drive.google.com/drive/folders/19f3wlbEfKcMpxgQUG8buQsDn7yBHD-tI?usp=sharing
 ```
 
  **Cerrar Servidor de Streaming:**  
