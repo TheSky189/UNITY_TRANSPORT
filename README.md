@@ -83,26 +83,32 @@ Pulsa `Ctrl + C` en la terminal.
 
 ---
 
-##  Configuración para Comunicación entre Dos Ordenadores
+##  Configuración para Comunicación entre Dos Ordenadores (Unity)
 
-1. Asegúrate de que ambos dispositivos estén en la misma red.  
-2. Obtén la IP del servidor en cmd administrador:  
+  1. Asegúrate de que ambos dispositivos estén conectados a la misma red local.  
+  2. Obtén la IP del ordenador que actuará como **servidor** ejecutando en la terminal (cmd):
+
 ```bash
 ipconfig
 ```
-3. Modifica la IP en los scripts cliente:
 
-```python
-# udp_chat_client.py
-SERVER_IP = "192.168.X.X"
+Abre el script ChatManager.cs en Unity y modifica la IP según el protocolo que estés utilizando.
+
+ Para UDP:
+```bash
+udpClient.Connect("192.168.X.X", 5000);  // Sustituye con la IP del servidor
 ```
 
-```js
-// websocket_client.html o script Unity
-const ws = new WebSocket('ws://192.168.X.X:3001');
+ Para WebSocket:
+```bash
+websocket = new WebSocket("ws://192.168.X.X:3001");  // Sustituye con la IP del servidor
 ```
+  Guarda los cambios y ejecuta la aplicación en ambos dispositivos.
 
-4. Guarda y ejecuta los scripts en ambas máquinas.
+  El servidor debe tener los servicios de Node.js en ejecución.
+  El cliente debe usar la IP correcta configurada en el código.
+
+  4. Guarda y ejecuta los scripts en ambas máquinas.
 
 ---
 
